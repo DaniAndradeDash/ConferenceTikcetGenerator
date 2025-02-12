@@ -74,8 +74,19 @@ body {
 
 /* ----------- Estilos Contenedor formulario -------------- */
 
-.containerForm {
-  width: 800px;
+.general {
+  width: 550px;
   height: auto;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 50;
+}
+
+.form-text {
+  color: rgb(99, 99, 99) !important;
 }
